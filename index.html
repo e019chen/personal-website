@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Yu-An's Chen's Website</title>
+    <meta name="author" content="Yu-An Chen" />
+    <meta name="description" content="Website" />
 
     <meta
       name="viewport"
@@ -14,7 +16,47 @@
     <link rel="stylesheet" href="css/media-queries.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
 
-    
+    <script src="js/modernizr.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZH61QP41C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MZH61QP41C');
+    </script>
   </head>
-  <body></body>
+  <body>
+    <header id="home">
+        <nav id="nav-wrap">
+        <!-- <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a> -->
+          <ul id="nav" class="nav">
+              <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+              <li><a class="smoothscroll" href="#about">About</a></li>
+              <li><a class="smoothscroll" href="#resume">Resume</a></li>
+              <li><a class="smoothscroll" href="#education">Education</a></li>
+              <li><a class="smoothscroll" href="#activities">Activities</a></li>
+          </ul>
+        </nav>
+        <div class="row banner">
+          <div class="banner-text">
+            <h1 class="responsive-headline">Yu-An Chen.</h1>
+            <h3> <span> Software Engineer </span> | <span> Data Scientist </span> | <span> Web Developer </span></h3>
+            <hr />
+            <ul class="social">
+              <li><a href="https://github.com/e019chen"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://linkedin.com/in/euanchen"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="mailto:euanchenS5948@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="scrolldown">
+          <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        </p>
+    </header>
+
+  </body>
 </html>
